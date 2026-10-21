@@ -35,5 +35,5 @@ except ValueError:
     print("Input tidak valid. Masukkan angka, bukan huruf.")
 
 print("=" * 50)
-print("Terima kasih sudah menggunakan kalkulator ini!")
+print("Terima kasih sudah menggunakan kalkulator sederana ini!")
 print("=" * 50)
