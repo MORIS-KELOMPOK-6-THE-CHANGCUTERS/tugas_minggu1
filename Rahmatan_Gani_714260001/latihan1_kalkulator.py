@@ -1,33 +1,38 @@
+# =====================================
+# Tugas Sesi Kelas (Latihan Individu)
+# Nama : Rahmatan Gani
+# NIM  : 714260001
+# kelompok : 6 THE CHANGCUTERS
+# kelas : 1A
+
+
 print("=" * 50)
 print("     Program Kalkulator Sederhana")
 print("=" * 50)
 
-a = float(input("Masukkan nilai a: "))
-b = float(input("Masukkan nilai b: "))
-operator = input("Pilih operasi (+, -, *, /): ")
+try:
+    a = float(input("Masukkan nilai a: "))
+    b = float(input("Masukkan nilai b: "))
+    operator = input("Pilih operasi (+, -, *, /): ").strip()
 
-if operator == "+":
-    hasil = a + b
-    print(f"Hasil penjumlahan {a} + {b} = {hasil}")
-
-elif operator == "-":
-    hasil = a - b
-    print(f"Hasil pengurangan {a} - {b} = {hasil}")
-
-elif operator == "*":
-    hasil = a * b
-    print(f"Hasil perkalian {a} * {b} = {hasil}")
-
-elif operator == "/":
-    if b != 0:
-        hasil = a / b
-        print(f"Hasil pembagian {a} / {b} = {hasil}")
+    print("=" * 50)
+    if operator == "+":
+        print(f"Hasil penjumlahan {a} + {b} = {a + b}")
+    elif operator == "-":
+        print(f"Hasil pengurangan {a} - {b} = {a - b}")
+    elif operator == "*":
+        print(f"Hasil perkalian {a} * {b} = {a * b}")
+    elif operator == "/":
+        if b != 0:
+            print(f"Hasil pembagian {a} / {b} = {a / b}")
+        else:
+            print("Maaf, pembagian dengan nol tidak bisa dilakukan.")
     else:
-        print("Error: Pembagian dengan nol tidak valid.")
+        print(f"Peringatan: operator '{operator}' tidak dikenali.")
+        print("Gunakan salah satu: +, -, *, /")
 
-else:
-    print(f"Error: Operator '{operator}' tidak dikenali.")
-    print("Gunakan salah satu: +, -, *, /")
+except ValueError:
+    print("Input tidak valid. Masukkan angka, bukan huruf.")
 
 print("=" * 50)
 print("Terima kasih sudah menggunakan kalkulator ini!")
