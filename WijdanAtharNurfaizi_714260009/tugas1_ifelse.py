@@ -6,6 +6,7 @@
 # Kelas    : 11 A
 # ==================================================
 
+print("=" *40)
 nilai = float(input("Masukkan nilai akhir (0-100): "))
 
 if nilai < 0 or nilai > 100:
