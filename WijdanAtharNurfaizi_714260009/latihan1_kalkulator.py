@@ -1,5 +1,5 @@
 # ("=" *40)
-# Latihan 1 - Kalkulator Konsol Sederhana
+# Latihan 1 - Kalkulator Konsol Sederhanaa
 # Pelatihan Dasar Pemrograman MORRIS IF 26
 # ("=" *40)
 
