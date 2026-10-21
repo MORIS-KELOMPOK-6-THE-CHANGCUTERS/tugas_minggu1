@@ -40,5 +40,5 @@ else:
     print(f"Huruf Mutu  : {huruf}")
     print(f"Keterangan  : {keterangan}")
     print("=" * 45)
-    print("Terima kasih telah menggunakan program ini!")
+    print("Terima kasih telah menggunakan program ini!!!")
     print("=" * 45)
