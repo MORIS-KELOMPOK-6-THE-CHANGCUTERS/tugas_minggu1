@@ -6,8 +6,8 @@ kelompok : 06 THE CHANGCUTERS
 Faktor ini berisi latihan dan tugas Modul 1 pada pelatihan MORRIS Teknik Inforatika 2026
 
 ## Daftar Berkas 
-- latihan1_kalkulator.py  : Kalkulator konsol sederhana
-- tugas1_ifelse.py        : program percabangan if-Else
+- latihan1_kalkulator.py : Kalkulator konsol sederhana
+- tugas1_ifelse.py       : program percabangan if-Else
 
 ## Cara Menjalankan 
 Jalankan perintah berikut pada terminal 
