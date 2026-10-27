@@ -37,4 +37,4 @@ else:
           print("Gunakan salah satu dari: + - * /")
 
 print("=" *40)
-print("Terimah kasih telah menggunakan kalkulator ini.")
+print("Terimah kasih telah menggunakan kalkulator inii.")
