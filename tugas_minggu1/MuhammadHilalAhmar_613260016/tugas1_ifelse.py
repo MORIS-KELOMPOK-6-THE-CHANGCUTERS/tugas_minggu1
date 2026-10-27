@@ -13,5 +13,5 @@ elif nilai>=40:
 else:
     huruf="E"
 
-print(f"nilai{nilai} setara dengan huruf mutu {huruf}")
+print(f"nilai{nilai} setara dengan huruf mutuu {huruf}")
 
